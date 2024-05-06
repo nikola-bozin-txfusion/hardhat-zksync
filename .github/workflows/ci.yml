@@ -41,5 +41,5 @@ jobs:
         run: |
             cd e2e
             chmod +x run-fixture-projects.sh
-            ./run-fixture-projects.sh
+            ./run-fixture-projects.sh node
         shell: bash
